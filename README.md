@@ -1,4 +1,4 @@
-# CMagicWand
+# CMagickWand
 
 ## MacOSX
 
