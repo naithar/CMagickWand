@@ -3,3 +3,11 @@ module CMagicWandOSX [system] {
 	link "MagickWand-6.Q16"
 	export *
 }
+
+module CMagicWandLinux [system] {
+	header "/usr/include/ImageMagick/wand/MagicWand.h"
+	link "MagickWand-6.Q16"
+	export *
+}
+
+
