@@ -1,0 +1,5 @@
+module CMagicWandOSX [system] {
+	header "/usr/local/include/ImageMagick-6/wand/MagicWand.h"
+	link "MagickWand-6.Q16"
+	export *
+}
