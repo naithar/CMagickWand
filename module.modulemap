@@ -6,7 +6,7 @@ module CMagickWandOSX [system] {
 
 module CMagickWandLinux [system] {
 	header "/usr/include/ImageMagick/wand/MagickWand.h"
-	link "MagickWand-6.Q16"
+	link "MagickWand"
 	export *
 }
 
