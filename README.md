@@ -9,5 +9,5 @@ brew install imagemagick
 ## Ubuntu
 
 ```
-sudo apt-get install libmagick++-dev imagemagick
+sudo apt-get install libmagickwand-dev imagemagick
 ```

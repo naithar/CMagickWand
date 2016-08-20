@@ -1,11 +1,11 @@
 module CMagickWandOSX [system] {
-	header "/usr/local/include/ImageMagick-6/wand/MagickWand.h"
+	umbrella header "/usr/local/include/ImageMagick-6/wand/MagickWand.h"
 	link "MagickWand-6.Q16"
 	export *
 }
-
+i
 module CMagickWandLinux [system] {
-	header "shim.h"
+	umbrella header "/usr/local/include/ImageMagick/wand/MagickWand.h"
 	link "MagickWand-6.Q16"
 	export *
 }
